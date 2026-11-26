@@ -94,7 +94,7 @@ In RViz, set the fixed frame to `my_robot/odom` and add `/scan`, `/camera/annota
 
 ## Status
 
-`autonomous_nav_hsv.py`, `covariance_relay.py` and `config/ekf.yaml` are a re-implementation of the rover's navigation for the simulation. Tested on one run in `target_world.sdf`: the rover reaches the panel from its start position in about 50 s of simulated time.
+`autonomous_nav_hsv.py`, `covariance_relay.py` and `config/ekf.yaml` are a re-implementation of the rover's navigation for the simulation.
 
 The physical rover (ESP32, custom PCB, IMU, LiDAR and ultrasonic sensors) was built with the EPFL Xplore rover team.
 
